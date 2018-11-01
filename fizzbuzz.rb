@@ -12,4 +12,4 @@ def fizzbuzz(value)
     puts string
   end
 end
-fizzbuzz(4)
+fizzbuzz(3)
