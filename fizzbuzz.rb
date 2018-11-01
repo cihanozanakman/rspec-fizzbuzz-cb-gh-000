@@ -6,6 +6,9 @@ def fizzbuzz(value)
     string += "Fizz"
   end
   if value % 5
-    string += "Fizz"
+    string += "Buzz"
+  end
+  if string != ""
+    return string
   end
 end
