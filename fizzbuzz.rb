@@ -9,6 +9,6 @@ def fizzbuzz(value)
     string += "Buzz"
   end
   if string != ""
-    puts string
+    return string
   end
 end
